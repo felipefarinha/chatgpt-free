@@ -138,6 +138,8 @@ Depending on the AI SDK and tool you want to use, you'll also need to install th
 | [E2B](https://e2b.dev)                                                   | `e2b`                  | Hosted Python code intrepreter sandbox which is really useful for data analysis, flexible code execution, and advanced reasoning on-the-fly.                                                                                                                   |
 | [Exa](https://docs.exa.ai)                                               | `ExaClient`            | Web search tailored for LLMs.                                                                                                                                                                                                                                  |
 | [Firecrawl](https://www.firecrawl.dev)                                   | `FirecrawlClient`      | Website scraping and sanitization.                                                                                                                                                                                                                             |
+| [HackerNews](https://github.com/HackerNews/API)                          | `HackerNewsClient`     | Official HackerNews API.                                                                                                                                                                                                                                       |
+| [Hunter](https://hunter.io)                                              | `HunterClient`         | Email finder, verifier, and enrichment.                                                                                                                                                                                                                        |
 | [Midjourney](https://www.imagineapi.dev)                                 | `MidjourneyClient`     | Unofficial Midjourney client for generative images.                                                                                                                                                                                                            |
 | [Novu](https://novu.co)                                                  | `NovuClient`           | Sending notifications (email, SMS, in-app, push, etc).                                                                                                                                                                                                         |
 | [People Data Labs](https://www.peopledatalabs.com)                       | `PeopleDataLabsClient` | People & company data (WIP).                                                                                                                                                                                                                                   |
@@ -196,6 +198,7 @@ See the [examples](./examples) directory for examples of how to use each of thes
 
 - services
   - browserbase
+  - [brave search](https://brave.com/search/api/)
   - [phantombuster](https://phantombuster.com)
   - [apify](https://apify.com/store)
   - perplexity
@@ -203,6 +206,7 @@ See the [examples](./examples) directory for examples of how to use each of thes
   - replicate
   - huggingface
   - [skyvern](https://github.com/Skyvern-AI/skyvern)
+  - pull from [clay](https://www.clay.com/integrations)
   - pull from [langchain](https://github.com/langchain-ai/langchainjs/tree/main/langchain)
     - provide a converter for langchain `DynamicStructuredTool`
   - pull from [nango](https://docs.nango.dev/integrations/overview)
